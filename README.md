@@ -1,4 +1,7 @@
 # SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation
+The official repository for the following paper: "SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation".
+
+## What we have done?
 we propose SOLID to tackle the challenges of using LLMs for generating intent-aware information-seeking dialogues with three novel strategies:
 
   1. **Self-seeding,** where LLM generates its own dialogue starter seed, ensuring that LLM is familiar with seed;
