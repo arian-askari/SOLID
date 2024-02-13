@@ -1,6 +1,6 @@
 # SOLID and SOLID-RL data
 
-  - **Self-seeding data.** The self-seeding data is available in self-seef directory: `data/self-seed`.
+  - **Self-seeding data.** The self-seeding data is available in self-seef directory: [data/self-seeds](./self-seeds).
 
   - **SFT data.** SOLID data to be sued for Supervised Fine-tuning (SFT) data for training SOLID-RL:
 
