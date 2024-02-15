@@ -1,4 +1,4 @@
-# SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation
+# SOLID: Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking dialogs
 The official repository for the following paper: "SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation".
 
 ## What we have done?
@@ -16,13 +16,13 @@ Furthermore, we propose SOLID-RL, empowered by a novel mixed-quality training me
 Creating datasets is a resource-intensive endeavor, with annotation costs often reaching significant amounts, as evidenced by [1], where annotating around 2k dialogues incurred a cost of $1700. In contrast, our approach leverages the open-source LLM and Nvidia A6000 GPUs with 40GB memory, allowing us to release 200k dialogues composed of X utterances. This dataset is designed for training intent predictors, system initiative prediction models, mitigating hallucination, and addressing various other tasks. Each dialogue is associated with an entity card, both of which are automatically generated. Following the intent proportions and sequences from MSDialogue-intent ensures alignment with real-world intent sequences.
 
 ## Pipeline
-<img src="./figures/iconv_pipeline.svg">
+<img src="./figures/SOLID_pipeline.svg">
 
 
 ## Example of Generated Dialogue
 
-## IConvGen Pipeline
-We introduce the Intent-Aware Information-Seeking Conversation Generation (IConvGen) pipeline to construct a large-scale dataset. The entire dataset is generated from scratch using LLM knowledge without additional content. The pipeline comprises the following steps:
+## SOLIDGen Pipeline
+We introduce the Intent-Aware Information-Seeking Conversation Generation (SOLIDGen) pipeline to construct a large-scale dataset. The entire dataset is generated from scratch using LLM knowledge without additional content. The pipeline comprises the following steps:
 
 1. **Generating Entity Types:** We instruct LLM to "Provide a list of 100 entity types." Out of these, 2 types are repeated, resulting in 98 unique entity types. While we acknowledge the option to use Wikipedia for category selection, we opt to let LLM choose categories it deems most common, enhancing recall with higher quality.
 
