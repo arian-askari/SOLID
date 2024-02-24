@@ -1,4 +1,4 @@
-# SOLID: Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking dialogs
+# Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking dialogs
 <img src= "./figures/solid_logov5.png" width=95px /> <img src= "https://img.shields.io/badge/Language-English-brightgreen"  />
 
 
