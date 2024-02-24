@@ -1,1 +1,4 @@
-
+theme: jekyll-theme-minimal
+title: SOLID
+description: Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking dialogs
+logo_lambda: ../figures/solid_logov5.png
