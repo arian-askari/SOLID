@@ -9,20 +9,12 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
   </head>
   <body>
     <a class="github-fork-ribbon" href="https://github.com/arian-askari/SOLID" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">GitHub</a>
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-<!--         {% if site.logo_lambda %}
-          <img src="{{site.logo_lambda | relative_url}}" alt="Logo" width="50%" height="50%" />
-        {% endif %} -->
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul class="downloads">
@@ -38,13 +30,6 @@
 
       </section>
       <footer>
-        <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/projects/lambda-lab/" target="_blank"> <img src="{{site.logo_lambda | relative_url}}" alt="Logo" width="30%" height="30%" float:left;/></a>
-
-        <a href="https://www.tudelft.nl/en/" target="_blank"><img src="{{site.logo_tudelft | relative_url}}" alt="Logo" width="25%" height="25%" float:left;/> </a>
-        {% if site.github.is_project_page %}
-        <p>This project was developd by <a href="https://github.com/alexanderblnf">Alexandru</a> during his M.Sc. thesis under <a href="{{ site.github.owner_url }}">Gustavo</a>'s supervision</p>
-        {% endif %}
-        {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}"> View the Project on GitHub: {{ site.github.repository_nwo }}</a></p>
         {% endif %}
         <a class="github-button" href="https://github.com/arian-askari/SOLID/fork" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork arian-askari/SOLID on GitHub">Fork</a>
