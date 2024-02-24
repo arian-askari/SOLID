@@ -24,13 +24,11 @@ We introduce SOLID, a novel approach to generating large-scale, intent-aware inf
 Explore our GitHub repository for a comprehensive guide, code, and access to our datasets:
 
 
-# SOLID
+# Intent-Aware Dialog Generation with SOLID
 
 ## Figure of SOLID's pipeline
 <img src="./figures/SOLID_pipeline.svg">
 
-
-## Intent-Aware Dialog Generation with SOLID
 SOLID introduces a new way to create and use dialog seeds for generating intent-aware dialogs illustrated in above figure. It begins with generating entity types, names, and attributes. This allows SOLID to make detailed background documents and questions. These elements help generate deeper and more varied dialogs, making the most of what large language models (LLMs) offer.
 
 ### Step 1: Seed Generation
@@ -40,14 +38,6 @@ The dialog generation in SOLID focuses on specific entities to ensure variety an
 1. **Entity Type Generation**: The LLM is asked to come up with different entity types (e.g., 'Person') and their attributes (e.g., 'Occupation'). This creates a wide range of topics.
    
 2. **Entity Name Generation**: For each entity type, the LLM creates specific names (e.g., 'Albert Einstein'). To ensure variety, SOLID prompts LLM to generate 100 entity names for each letter of the English alphabet for every entity type. This leads to 50,000 entity names after cleaning them up, providing a large pool of dialog seeds.
-
-
-
-SOLID's dialog generation process pivots around specific entities, ensuring diversity and familiarity. The process involves three steps:
-
-1. **Entity Type Generation**: Prompting the LLM to produce a variety of entity types (e.g., 'Person') and associated attributes (e.g., 'Occupation'), leading to a broad spectrum of discussion points.
-   
-2. **Entity Name Generation**: For each entity type, the LLM generates specific names (e.g., 'Albert Einstein'), aiming for diversity by generating 100 names per English alphabet letter for each entity type. This results in 50,000 entity names after post-processing.
 
 ### Step 2: Ice Breaker
 
