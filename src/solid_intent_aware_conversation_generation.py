@@ -2,7 +2,7 @@
 # Project Name: SOLID
 # File Name: solid_intent_aware_conversation_generation.py
 # --------------------------------------------------------------------------------
-# Authors of this file: Roxana Petcu, Arian Askari
+# Authors of this file: Roxana Petcu and Arian Askari
 # Contributions on this file:
 #   Roxana Petcu - Initial implementation and logic for generating intent-aware dialogues
 #   Arian Askari - Revising algorithm and adding multi-intent self-instructing
