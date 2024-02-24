@@ -68,4 +68,3 @@ With the seeds ready, the next step involves generating an ice breaker to kickst
 ### Step 3: Intent-Aware Dialogs
 
 Using the outputs from the first two steps, SOLID an algorithm, explained in the appendix of the paper, to generate dialog data, aiming to produce the next utterance constrained to intents at each step. This keeps the dialog intent-aware. 
-
