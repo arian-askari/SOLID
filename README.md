@@ -24,7 +24,40 @@ We introduce SOLID, a novel approach to generating large-scale, intent-aware inf
 Explore our GitHub repository for a comprehensive guide, code, and access to our datasets:
 
 
-## Pipeline
+# SOLID
+
+## Figure of SOLID's pipeline
 <img src="./figures/SOLID_pipeline.svg">
 
+
+## Intent-Aware Dialog Generation with SOLID
+SOLID introduces a new way to create and use dialog seeds for generating intent-aware dialogs illustrated in above figure. It begins with generating entity types, names, and attributes. This allows SOLID to make detailed background documents and questions. These elements help generate deeper and more varied dialogs, making the most of what large language models (LLMs) offer.
+
+### Step 1: Seed Generation
+
+The dialog generation in SOLID focuses on specific entities to ensure variety and familiarity. The process includes three important steps:
+
+1. **Entity Type Generation**: The LLM is asked to come up with different entity types (e.g., 'Person') and their attributes (e.g., 'Occupation'). This creates a wide range of topics.
+   
+2. **Entity Name Generation**: For each entity type, the LLM creates specific names (e.g., 'Albert Einstein'). To ensure variety, SOLID prompts LLM to generate 100 entity names for each letter of the English alphabet for every entity type. This leads to 50,000 entity names after cleaning them up, providing a large pool of dialog seeds.
+
+
+
+SOLID's dialog generation process pivots around specific entities, ensuring diversity and familiarity. The process involves three steps:
+
+1. **Entity Type Generation**: Prompting the LLM to produce a variety of entity types (e.g., 'Person') and associated attributes (e.g., 'Occupation'), leading to a broad spectrum of discussion points.
+   
+2. **Entity Name Generation**: For each entity type, the LLM generates specific names (e.g., 'Albert Einstein'), aiming for diversity by generating 100 names per English alphabet letter for each entity type. This results in 50,000 entity names after post-processing.
+
+### Step 2: Ice Breaker
+
+With the seeds ready, the next step involves generating an ice breaker to kickstart the conversation:
+
+1. **Background Document Generation**: Following insights from prior research, this step involves asking the LLM to create a document about the entity. This adds depth to the dialog and improves its quality.
+   
+2. **Conversation Starter**: With the entity type, attributes, name, and background document in hand, the LLM generates the first line of the conversation.
+
+### Step 3: Intent-Aware Dialogs
+
+Using the outputs from the first two steps, SOLID an algorithm, explained in the appendix of the paper, to generate dialog data, aiming to produce the next utterance constrained to intents at each step. This keeps the dialog intent-aware. 
 
