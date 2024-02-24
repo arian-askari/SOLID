@@ -5,7 +5,7 @@
 # Authors of this file: Roxana Petcu, Arian Askari
 # Contributions on this file:
 #   Roxana Petcu - Initial implementation and logic for generating intent-aware dialogues
-#   Arian Askari - Revising algorithm and adding multi-intent self-instructig
+#   Arian Askari - Revising algorithm and adding multi-intent self-instructing
 # --------------------------------------------------------------------------------
 import os
 import json
