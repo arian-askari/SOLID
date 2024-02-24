@@ -2,7 +2,7 @@
 [<img src= "./figures/solid_logov5.png" width=95px />](https://arian-askari.github.io/SOLID/) [<img src= "https://img.shields.io/badge/Language-English-brightgreen"  />](https://arian-askari.github.io/SOLID/)
 
 
-The official repository for the following paper: "![SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation](https://arxiv.org/abs/2402.11633)".  
+The official repository for the following paper: "[SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation](https://arxiv.org/abs/2402.11633)".  
 
 
 If you use this dataset, please use the following bibtex references:
