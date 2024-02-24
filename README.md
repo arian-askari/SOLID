@@ -4,8 +4,27 @@
 
 The official repository for the following paper: "SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation".  **Work in progress: The code is under cleaning/organizing process**
 
+
+If you use this dataset, please use the following bibtex references:
+
+```bibtex
+@misc{askari2024selfseeding,
+      title={Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking dialogs}, 
+      author={Arian Askari and Roxana Petcu and Chuan Meng and Mohammad Aliannejadi and Amin Abolghasemi and Evangelos Kanoulas and Suzan Verberne},
+      year={2024},
+      eprint={2402.11633},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+
 ## Overiew
 We introduce SOLID, a novel approach to generating large-scale, intent-aware information-seeking dialogues. Our method leverages self-seeding and multi-intent self-instructing schemes to produce high-quality dialogues. Additionally, we propose SOLID-RL, an enhanced version of SOLID, designed to increase efficiency without compromising the quality of generated dialogues.
+
+## Dataset
+Explore ![``/data/``](./data/) directory to access to our datasets:
+
 
 ## Key Features
 
@@ -20,8 +39,6 @@ We introduce SOLID, a novel approach to generating large-scale, intent-aware inf
 3. **Extensive Datasets**: Release of SOLISpeak and SOLITurbo, two large-scale synthetic datasets for advancing intent prediction research.
 4. **Superior IP Method Performance**: Training intent predictor (IP) methods on SOLID-generated data significantly improves effectiveness over traditional human-annotated datasets.
 
-## Dataset
-Explore our GitHub repository for a comprehensive guide, code, and access to our datasets:
 
 
 # Intent-Aware Dialog Generation with SOLID
