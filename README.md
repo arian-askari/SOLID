@@ -2,7 +2,7 @@
 <img src= "./figures/solid_logov5.png" width=100px></img>
 [![](https://img.shields.io/badge/Language-English-brightgreen)](https://github.com/arian-askari/SOLID)
 
-The official repository for the following paper: "SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation".  **Work in progress: The code is under cleaning/organizing process**
+The official repository for the following paper: "![SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation](https://arxiv.org/abs/2402.11633)".  
 
 
 If you use this dataset, please use the following bibtex references:
@@ -23,7 +23,7 @@ If you use this dataset, please use the following bibtex references:
 We introduce SOLID, a novel approach to generating large-scale, intent-aware information-seeking dialogues. Our method leverages self-seeding and multi-intent self-instructing schemes to produce high-quality dialogues. Additionally, we propose SOLID-RL, an enhanced version of SOLID, designed to increase efficiency without compromising the quality of generated dialogues.
 
 ## Dataset
-Explore ![``/data/``](./data/) directory to access to our datasets:
+Explore ![``/data/``](./data/) and  ![``/data/``](./src/) directory to access to our datasets and code for intent-aware dialogue generation.
 
 
 ## Key Features
