@@ -20,7 +20,7 @@ If you use this dataset, please use the following bibtex references:
 
 
 ## Overiew
-We introduce SOLID, a novel approach to generating large-scale, intent-aware information-seeking dialogues. Our method leverages self-seeding and multi-intent self-instructing schemes to produce high-quality dialogues. Additionally, we propose SOLID-RL, an enhanced version of SOLID, designed to increase efficiency without compromising the quality of generated dialogues.
+We introduce SOLID, a novel approach to generating large-scale, intent-aware information-seeking dialogues. Our method leverages self-seeding and multi-intent self-instructing schemes to produce high-quality dialogues. Additionally, we propose SOLID-RL, an enhanced version of SOLID, designed to increase efficiency without compromising the quality of generated dialogues. SOLID's method to creating intent-aware dialogs highlights the possibilities of using LLMs to generate meaningful and diverse while intent-aware conversations.
 
 ## Dataset
 Explore ![``/data/``](./data/) and  ![``/data/``](./src/) directory to access to our datasets and code for intent-aware dialogue generation.
@@ -44,7 +44,7 @@ Explore ![``/data/``](./data/) and  ![``/data/``](./src/) directory to access to
 # Intent-Aware Dialog Generation with SOLID
 
 ## Figure of SOLID's pipeline
-<img src="./figures/SOLID_pipeline.svg">
+<img src="./imgs/SOLID_pipeline.svg">
 
 SOLID introduces a new way to create and use dialog seeds for generating intent-aware dialogs illustrated in above figure. It begins with generating entity types, names, and attributes. This allows SOLID to make detailed background documents and questions. These elements help generate deeper and more varied dialogs, making the most of what large language models (LLMs) offer.
 
