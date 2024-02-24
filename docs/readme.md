@@ -1,5 +1,5 @@
 # SOLID: Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking dialogs
-<img src= "./figures/solid_logov5.png" width=100px></img>
+<img src= "../figures/solid_logov5.png" width=100px></img>
 [![](https://img.shields.io/badge/Language-English-brightgreen)](https://github.com/arian-askari/SOLID)
 
 The official repository for the following paper: "SOLID: Self-instructing and Self-seeding LLMs for Large-scale Intent-Aware Informating-Seeeking Dialogue Generation".  **Work in progress: The code is under cleaning/organizing process**
