@@ -27,7 +27,7 @@ tokenizer.pad_token = tokenizer.eos_token
 model.generation_config.pad_token_id = model.generation_config.eos_token_id
 base_out_path = sys.argv[
     2
-]  # "/ivi/ilps/personal/aaskari/dataset/IconvGen/entities/entity_type_{}_letter_{}.txt"
+] 
 
 
 def _generate_entities(inputs, tokenizer, model, batch_size, output_paths):
