@@ -4,8 +4,8 @@
 # --------------------------------------------------------------------------------
 # Authors of this file: Roxana Petcu, Arian Askari
 # Contributions:
-#   Roxana Petcu - Initial framework and logic for generating data
-#   Arian Askari - Optimized the algorithm and added multi-intent self-instructig
+#   Roxana Petcu - Initial implementation and logic for generating intent-aware dialogues
+#   Arian Askari - Revising algorithm and adding multi-intent self-instructig
 # --------------------------------------------------------------------------------
 # This project is the result of collaborative efforts from the authors mentioned.
 # --------------------------------------------------------------------------------
